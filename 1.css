@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(12, 10, 10);
+    cursor: none;
+}
+
+.page1 {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.page2 {
+    width: 100vw;
+    min-height: 130vh;
+    border-bottom: 1px solid black;
+}
+
+.page3 {
+    width: 100vw;
+    min-height: 250vh;
+    position: relative;
+    border-bottom: 1px solid black;
+
+}
+
+.page4 {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    padding: 15vw;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.page5 {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+nav {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.n1 h4 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.n1 h4:nth-child(1) {
+    border-bottom: 2px solid white;
+}
+
+.h1 {
+    font-size: 7vw;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    font-weight: 300;
+}
+
+.h4 {
+    font-size: 7vw;
+    margin-left: 30vw;
+    font-weight: 300;
+}
+
+.page1 video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.page2 h1 {
+    padding-top: 8vw;
+    font-size: 8vw;
+    font-weight: 300;
+    color: black;
+}
+
+.page2-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 300;
+    padding: 5vw;
+    width: 100%;
+    height: 60vh;
+}
+
+.page2-center .part1 {
+    width: 30%;
+}
+
+.page2-center .part2 {
+    width: 40%;
+}
+
+.page2-center .part1 h2 {
+    color: black;
+}
+
+.page2-center .part2 p {
+    color: black;
+}
+
+.page3 .hh1 {
+    font-size: 7rem;
+    color: rgb(192, 192, 192);
+    padding-top: 3vw;
+    font-weight: 300;
+    margin-left: 3vw;
+}
+
+.page3-p1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.page3-p1 img {
+    height: 30vw;
+    margin-top: 10vw;
+}
+
+.page3-p1 video {
+    height: 30vw;
+}
+
+.page3-p2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.page3-p2 img {
+    margin-top: 25vw;
+    height: 35vw;
+
+}
+
+.page3-p2 video {
+    height: 30vw;
+    margin-left: 10vw;
+    margin-top: 14vw;
+}
+
+.cursor {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    background-color: white;
+    transition: all linear 0.1s;
+    will-change: transform;
+    transition: background-image ease 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+
+.cursor.button-shape {
+    width: 6rem;
+    height: 2.5rem;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.elem img {
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s all ease-out;
+    transform: translateY(10%) rotate(2deg);
+
+}
+
+.elem img:nth-child(1) {
+    width: 30%;
+    left: 0;
+}
+
+.elem img:nth-child(3) {
+    right: 0;
+    width: 30%;
+}
+
+.page4 h1 {
+    font-size: 4rem;
+}
+
+.txt-div {
+    /* background-color: brown; */
+    height: 5vw;
+    overflow: hidden;
+}
+
+.txt-div h1 {
+    transition: 0.4s all ease-out;
+}
+
+.elem:hover h1 {
+    transform: translateY(-100%);
+    color:cornflowerblue;
+}
+
+.elem:hover img {
+    opacity: 1;
+    transform: translateY(0%) rotate(0deg);
+
+}
+
+footer {
+    width: 100%;
+    height: 90vh;
+}
+.page5 h2{
+    font-size:5vw;
+    font-weight: 300;
+    padding: 4vw 2vw;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:5vw;
+    padding: 2vw 4vw;
+    font-size: 2rem;
+    border:2px solid white;
+}
