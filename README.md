@@ -25,6 +25,6 @@ This project is a fully animated, visually engaging website built using **GSAP (
 
 ---
 
-[📂 View Screenshots Folder](https://github.com/kashisharora-14/Eves-Elegance-Women-Clothing-site/tree/main/screenshots)
+[📂 View Screenshots Folder](https://github.com/kashisharora-14/gsap-animated-website/tree/main/screenshots)
 
 
